@@ -25,7 +25,7 @@ a{
 
 .header h1{
     font-size: 16px;
-    font-family: 'Roboto Mono';
+    font-family: 'Poppins', sans-serif;
     font-weight: 100;
 }
 
@@ -48,7 +48,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 46px;
-    font-family: 'Roboto Mono';
+    font-family: 'Poppins', sans-serif;
     
 }
 .nav_links{
@@ -62,7 +62,7 @@ nav{
 .cta{
     padding: 14px 32px;
     font-size: 16px;
-    font-family: 'Roboto Mono';
+    font-family: 'Poppins', sans-serif;
     background-color: #068DA9;
     color: white;
     border: none;
@@ -79,7 +79,7 @@ nav{
 .hero{
     display: flex;
     align-items: center;
-    background-image: url("./Asset/Images/banner.png");
+    background-image: url("./Asset/Images/Group\ 28.png");
     background-size: cover;
     height: 692px;
     padding: 0px 62px;
@@ -212,14 +212,14 @@ nav{
 .info_stats h1{
     font-size: 36px;
     color: white;
-    font-family: 'Roboto Mono';
+    font-family: 'Poppins', sans-serif;
 }
 
 
 .info_stats p{
     font-size: 16px;
     color: white;
-    font-family: 'Roboto Mono';
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -290,7 +290,7 @@ nav{
     background-color: #068DA9;
     color: white;
     font-size: 18px;
-    font-family: 'Roboto Mono';
+    font-family: 'Poppins', sans-serif;
     
 }
 
@@ -344,7 +344,7 @@ li {
   footer {
     background-color: #068DA9;;
     padding: 40px 62px;
-    font-family: 'Roboto Mono';
+    font-family: 'Poppins', sans-serif;
     color: white;
     
 }
