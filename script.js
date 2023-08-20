@@ -28,6 +28,35 @@ slider.addEventListener('mousemove', e => {
 
 
 
+const counterSections = document.querySelectorAll('.counter-section');
+
+const options = {
+  threshold: 0.5
+};
+
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const counter = entry.target.querySelector('.counter');
+      const endNumber = parseInt(counter.getAttribute('data-end'));
+      let currentNumber = 0;
+
+      const interval = setInterval(() => {
+        counter.textContent = currentNumber;
+        currentNumber++;
+        if (currentNumber > endNumber) {
+          clearInterval(interval);
+        }
+      }, 50); 
+
+      observer.unobserve(entry.target);
+    }
+  });
+}, options);
+
+counterSections.forEach(section => {
+  observer.observe(section);
+});
 
 
 
