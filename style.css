@@ -265,7 +265,8 @@ nav{
 }
 
 .service{
-    margin-top: 62px;
+    margin-top: 32px;
+	background-image: linear-gradient(to bottom, rgb(255, 255, 255)10%,white 60%,#068ea928 );
 }
 .service_container{
     display: flex;
@@ -485,8 +486,8 @@ li {
 
   .Specialities{
     background-color: #068ea928;
-    padding: 42px 62px;
-    margin-top: 60px ;
+    padding: 82px 62px;
+    
   }
 
 
@@ -613,4 +614,13 @@ li {
     flex-direction: column;
     gap: 50px;
 }
+}
+
+
+
+.outer{
+    border: 18px solid #068ea9;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #bff4ff;
 }
