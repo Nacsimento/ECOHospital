@@ -59,5 +59,27 @@ counterSections.forEach(section => {
 });
 
 
+document.addEventListener("DOMContentLoaded", function () {
+  const categoryCards = document.querySelectorAll(".category-card");
+
+  categoryCards.forEach((categoryCard) => {
+    const doctorList = categoryCard.querySelector(".doctor-list");
+
+    categoryCard.addEventListener("click", function () {
+      const isActive = categoryCard.classList.toggle("active");
+
+      if (isActive) {
+        // Calculate the actual scroll height of the list
+        const listHeight = doctorList.scrollHeight + "px";
+        // Set max-height to the calculated height
+        doctorList.style.maxHeight = listHeight;
+      } else {
+        // Close the list by setting max height to 0
+        doctorList.style.maxHeight = "0";
+      }
+    });
+  });
+});
+  
 
 
