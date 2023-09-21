@@ -713,3 +713,70 @@ video{
     width: 100%;
     padding: 36px 150px;
 }
+
+#cashless-facilities {
+    background-color: #f4f4f4;
+    padding: 40px 62px;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left;
+}
+
+/* Style for headings */
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style for lists */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Style for list items */
+li {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #777;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style for columns in the section */
+.col-md-6 {
+    width: 50%;
+    float: left;
+}
+
+/* Clearfix for column wrapping */
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 46px;
+    padding: 26px 0px;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 46px;
+    padding: 26px 0px;
+}
+.Insurance{
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 30px 0px;
+    color: #424242;
+}
