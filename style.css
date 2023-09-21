@@ -808,3 +808,7 @@ li {
     text-align: center;
     color: white;
 }
+
+.col-2{
+    width: 266px;
+}
