@@ -88,7 +88,7 @@ nav{
 .hero{
     display: flex;
     align-items: center;
-    background-image: url("./Asset/Images/Webbanner1.png"); 
+    background-image: url("./Asset/Images/Webbanner2.png"); 
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -779,4 +779,32 @@ li {
     text-align: center;
     margin: 30px 0px;
     color: #424242;
+}
+
+.map {
+    overflow: hidden;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
+    position: relative;
+    height: 0;
+    
+}
+
+.map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.container-map{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 56px 20px;
+    text-align: left;
+}
+
+.container-map h2{
+    text-align: center;
+    color: white;
 }
